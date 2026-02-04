@@ -13,9 +13,6 @@ from llm_engine import (
 )
 from tools import parse_pdf, search_jobs
 
-# DEBUG: Remove before demo
-st.write("Current Secrets keys:", st.secrets.keys())
-
 st.set_page_config(page_title="AI Job Hunter", layout="wide")
 st.title("AI Job Hunter")
 
